@@ -1,0 +1,63 @@
+# sidebar
+- Getting started
+  - [What is sketchware](README.md)
+  - [Creating your first project](first-project.md)
+
+- Debugging
+  - [Why you can't have duplicate names](duplicate-vars.md)
+- View 
+  - Layouts
+    - Linear(H) 
+    - Linear(V) 
+    - Scroll(H) 
+    - Scroll(V)
+  - Widgets
+    - TextView 
+    - EditText 
+    - Button
+    - ImageView 
+    - Checkbox
+    - Spinner
+    - ListView
+    - WebView 
+    - Switch
+    - SeekBar 
+    - ProgressBar
+    - CalendarView
+    - AdView
+    - MapView
+
+- Blocks
+  - [Variables And Lists](blocks/variables.md)
+  - [Control](blocks/control.md)
+  - [Operator](blocks/operator.md) 
+  - [Math](blocks/math.md) 
+  - [File](blocks/file.md) 
+  - [Views](blocks/views.md) 
+  - [Components](blocks/components.md) 
+  - [More blocks](blocks/functions.md) 
+
+- Components
+  - [Overview](components/README.md)
+  - [Intent](components/intent.md) 
+  - [SharedPreferences](components/sharedPreferences.md) 
+  - [Calendar](components/calendar.md) 
+  - [Vibrator](components/vibrator.md) 
+  - [Timer](components/timer.md)
+  - [Dialog](components/dialog.md)
+  - [MediaPlayer](components/mediaPlayer.md) 
+  - [SoundPool](components/soundPool.md) 
+  - [ObjectAnimator](components/objectAnimator.md) 
+  - [Camera](components/camera.md) 
+  - [FilePicker](components/filePicker.md) 
+  - [Gyroscope](components/gyroscope.md) 
+  - [Firebase](components/firebase.md) 
+    - [DB](components/db.md) 
+    - [Auth](components/auth.db) 
+    - [Storage](components/storage.md) 
+  - [Interestial ad](components/ads.md) 
+  - [TextToSpeech](components/tts.md) 
+  - [SpeechToText](components/stt.md) 
+  - [RequestNetwork](components/network.md) 
+  - [BluetoothConnect](components/bluetooth.md) 
+  - [LocationManager](components/location.md) 

@@ -1,0 +1,8 @@
+{
+  "docs-en": {
+    "Getting started": ["en/README", "en/first-project"],
+    "Debugging": ["en/duplicate-vars"],
+    "Blocks": ["en/blocks/control", "en/blocks/variables"],
+    "Components": ["en/components"]
+  }
+}
