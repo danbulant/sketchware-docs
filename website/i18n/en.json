@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "Unofficial sketchware documentation",
     "docs": {
       "en/_coverpage": {
         "title": "en/_coverpage"
@@ -17,7 +17,7 @@
       "en/blocks/variables": {
         "title": "Variables"
       },
-      "en/components": {
+      "en/components/components": {
         "title": "Components"
       },
       "en/duplicate-vars": {
@@ -25,6 +25,9 @@
       },
       "en/first-project": {
         "title": "Creating your new application"
+      },
+      "en/LICENSE": {
+        "title": "The MIT License (MIT)"
       },
       "en/README": {
         "title": "Sketchware docs"

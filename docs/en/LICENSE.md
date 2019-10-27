@@ -1,4 +1,7 @@
-The MIT License (MIT)
+---
+id: LICENSE
+title: The MIT License (MIT)
+---
 =====================
 
 Copyright © `2019` `Daniel Bulant & contributors`

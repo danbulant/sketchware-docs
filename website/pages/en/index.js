@@ -60,13 +60,11 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        {/*<Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />*/}
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('en/README.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('en/README.html')}>DOCUMENTATION</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -105,12 +103,23 @@ class Index extends React.Component {
       <Block id="try">
         {[
           {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
+            content:`
+            \`\`\`android
+            import android.os.Bundle;
+            import android.support.annotation.Nullable;
+            import android.support.v7.app.AppCompatActivity;
+            import android.widget.Toast;
+
+            public class HelloWorld extends AppCompatActivity {
+                @Override
+                protected void onCreate(@Nullable Bundle savedInstanceState) {
+                    super.onCreate(savedInstanceState);
+                    Toast.makeText(this, "Hello World!",
+                      Toast.LENGTH_SHORT).show();
+                }
+            }
+            \`\`\`
+            `,
             title: 'Wonderful SVG Illustrations',
           },
         ]}
@@ -197,12 +206,12 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
+          {/*<Features />
           <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
+          <Showcase />*/}
         </div>
       </div>
     );

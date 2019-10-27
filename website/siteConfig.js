@@ -28,18 +28,18 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'en/README', label: 'Getting started'},
+    {doc: 'en/README', label: 'Docs'},
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/logo.png',
+  footerIcon: 'img/logo.png',
+  favicon: 'img/logo.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#af367c',
-    secondaryColor: '#7a2556',
+    primaryColor: '#008dcd',
+    secondaryColor: '#ffa7a5',
   },
 
   /* Custom fonts for website */
@@ -57,7 +57,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright &copy; ${new Date().getFullYear()} Daniel Bulant, MIT Licensed`,
+  copyright: `Copyright © ${new Date().getFullYear()} Daniel Bulant, MIT Licensed`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -87,7 +87,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/danbulant/sketchware-docs',
 };
 
 module.exports = siteConfig;

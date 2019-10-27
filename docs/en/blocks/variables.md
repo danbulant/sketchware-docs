@@ -5,7 +5,7 @@ id: variables
 
 ## What it is
 
-Variable is a key-value pair. A variable is used to save data into RAM. This means, that where app is closed, variables are deleted.
+Variable is a key-value pair, name = value. A variable is used to save data into RAM. This means, that where app is closed, variables are deleted.
 
 ## Variable types
 
@@ -52,4 +52,4 @@ Components are saved in variable, same as widgets, they're saved to keep a refer
 A variable must have at least one character(can be either case). It must start with a character, then it can contain any number of characters, numbers or dashes.
 In RegEx, it would be written as ''' [a-zA-Z][a-zA-Z1-9-]* '''
 
-Must not be duplicate name. See [Why you can't have duplicate names](duplicate-vars.md).
+Must not be duplicate name. See [Why you can't have duplicate names](en/duplicate-vars.md).
